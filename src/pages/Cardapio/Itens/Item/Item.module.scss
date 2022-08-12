@@ -41,8 +41,8 @@ $veganos: #80aa40;
     }
     p {
       color: $dark-grey;
-      font-size: 1.3rem;
-      font-weight: 600;
+      font-size: 1.2rem;
+      line-height: 1.6rem;
       max-width: 600px;
       margin-bottom: 20px;
     }
@@ -60,7 +60,7 @@ $veganos: #80aa40;
       justify-content: flex-start;
     }
     > div {
-      margin: 10px;
+      margin: 5px;
     }
   }
   &__tipo {
@@ -92,11 +92,12 @@ $veganos: #80aa40;
     align-items: center;
     display: flex;
     font-size: 1.25rem;
-    font-weight: bold;
+    font-weight: 500;
     justify-content: center;
   }
   &__valor {
     color: $red;
     font-size: 1.7rem;
+    font-weight: bold;
   }
 }
