@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from "react"
-import { isTemplateExpression } from "typescript"
-import Item from "./Item/Item"
-import cardapio from './itens.json'
+import React, { useEffect, useState } from 'react'
+import Item from './Item/Item'
+import cardapio from 'data/cardapio.json'
 import styles from './Itens.module.scss'
 
 interface props {
